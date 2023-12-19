@@ -164,7 +164,7 @@ class AddEmployee extends React.Component {
                       className="nav-link dropdown-toggle"
                     >
                       <i className="fa-solid fa-book" />
-                      <span>Logout </span>
+                      <span>Cerrar Sesion </span>
                     </Dropdown.Toggle>
                   </Dropdown>
                 </li>
@@ -353,7 +353,7 @@ class AddEmployee extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
+          <footer><Footer /></footer>
         </div>
       </div>
     );

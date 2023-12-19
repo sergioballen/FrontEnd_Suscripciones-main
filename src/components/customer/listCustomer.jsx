@@ -229,7 +229,7 @@ class ListEmployee extends React.Component {
                         as={Link}
                         to="/dashBoardEmployee/bookManagement"
                       >
-                        Lista de Ssucripciones
+                        Lista de Suscripciones
                       </Dropdown.Item>
                       <Dropdown.Divider />
                       <Dropdown.Item
@@ -539,7 +539,7 @@ class ListEmployee extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
+          <footer><Footer /></footer>
         </div>
       </div>
     );

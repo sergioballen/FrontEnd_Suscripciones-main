@@ -156,7 +156,7 @@ class Dashboard extends React.Component {
               </div>
             </nav>
           </div>
-          <Footer />
+          <footer><Footer /></footer>
         </div>
       </div>
     );

@@ -433,7 +433,7 @@ class ListEmployee extends React.Component {
                               </div>
                               <div className="col-md-6 pl-1">
                                 <div className="form-group">
-                                  <label>Uusario</label>
+                                  <label>Usuario</label>
                                   <input
                                     id="username"
                                     type="text"
@@ -513,7 +513,7 @@ class ListEmployee extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
+          <footer><Footer /></footer>
         </div>
       </div>
     );

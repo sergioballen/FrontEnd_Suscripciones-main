@@ -104,7 +104,7 @@ class AddBook extends React.Component {
                         </Dropdown.Item>
                         <Dropdown.Divider />
                         <Dropdown.Item as={Link} to="/dashBoard/createBook">
-                          Añadir Ssucripcion
+                          Añadir Suscripcion
                         </Dropdown.Item>
                       </Dropdown.Menu>
                     </Dropdown>
@@ -197,7 +197,7 @@ class AddBook extends React.Component {
                             as={Link}
                             to="/dashBoardEmployee/createBook"
                           >
-                            Añadir Ssucripcion
+                            Añadir Suscripcion
                           </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
@@ -398,7 +398,7 @@ class AddBook extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
+          <footer><Footer /></footer>
         </div>
       </div>
     );

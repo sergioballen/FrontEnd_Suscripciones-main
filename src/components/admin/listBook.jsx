@@ -205,7 +205,7 @@ class ListBook extends React.Component {
                           as={Link}
                           to="/dashBoardEmployee/bookManagement"
                         >
-                          Lista de Ssucripciones
+                          Lista de Suscripciones
                         </Dropdown.Item>
                         <Dropdown.Divider />
                         <Dropdown.Item
@@ -234,7 +234,7 @@ class ListBook extends React.Component {
                           as={Link}
                           to="/dashBoardEmployee/loanManagement"
                         >
-                          Lista de Ssucripciones Activas
+                          Lista de Suscripciones Activas
                         </Dropdown.Item>
                         <Dropdown.Divider />
                         <Dropdown.Item
@@ -278,7 +278,7 @@ class ListBook extends React.Component {
                       </Dropdown.Toggle>
                       <Dropdown.Menu>
                         <Dropdown.Item as={Link} to="/dashBoard/bookManagement">
-                          BLista de Suscripciones
+                          Lista de Suscripciones
                         </Dropdown.Item>
                         <Dropdown.Divider />
                         <Dropdown.Item as={Link} to="/dashBoard/createBook">
@@ -338,7 +338,7 @@ class ListBook extends React.Component {
                   <div className="col-md-12">
                     <div className="card strpied-tabled-with-hover">
                       <div className="card-header ">
-                        <h4 className="card-title">Books</h4>
+                        <h4 className="card-title">Suscripciones</h4>
                       </div>
                       <div className="card-body table-full-width table-responsive">
                         <table className="table table-hover table-striped">
@@ -350,7 +350,7 @@ class ListBook extends React.Component {
                               <th>Tipo de servicio</th>
                               <th>Cantidad en Stock</th>
                               <th>Fecha de salida del servicio</th>
-                              <th>Valor Interés de mora diario</th>
+                              <th>Precio</th>
                               <th>Acciones</th>
                             </tr>
                           </thead>
@@ -392,7 +392,7 @@ class ListBook extends React.Component {
                   </div>
                   {/*END TABLE*/}
                   <Modal show={isModalOpen} onHide={this.closeModal}>
-                    <ModalHeader closeButton>Editar Ssucripcion</ModalHeader>
+                    <ModalHeader closeButton>Editar Suscripcion</ModalHeader>
                     <ModalBody>
                       <div class="card">
                         <div class="card-header">
@@ -497,7 +497,7 @@ class ListBook extends React.Component {
                               </div>
                               <div className="col-md-4 pl-1">
                                 <div className="form-group">
-                                  <label>Vaor Interés mora diario</label>
+                                  <label>Precio</label>
                                   <input
                                     id="fine1"
                                     type="text"
@@ -550,7 +550,7 @@ class ListBook extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
+          <footer><Footer /></footer>
         </div>
       </div>
     );

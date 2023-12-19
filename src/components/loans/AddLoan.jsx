@@ -163,7 +163,7 @@ class AddCustomer extends React.Component {
                         as={Link}
                         to="/dashBoardEmployee/createBook"
                       >
-                        Añadir Ssucripcion
+                        Añadir Suscripcion
                       </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
@@ -305,7 +305,7 @@ class AddCustomer extends React.Component {
               </div>
             </div>
           </div>
-          <Footer />
+          <footer><Footer /></footer>
         </div>
       </div>
     );
