@@ -356,7 +356,7 @@ class AddBook extends React.Component {
                             </div>
                             <div class="col-md-6 pl-1">
                               <div class="form-group">
-                                <label>Valor interés de mora diario</label>
+                                <label>Precio</label>
                                 <input
                                   type="text"
                                   class="form-control"
@@ -398,7 +398,8 @@ class AddBook extends React.Component {
               </div>
             </div>
           </div>
-          <footer><Footer /></footer>
+           
+          <Footer />
         </div>
       </div>
     );
